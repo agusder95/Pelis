@@ -1,0 +1,42 @@
+body{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+h1{
+    align-self: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-left: 1rem;
+}
+
+input{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
+button{
+    align-self: center;
+    width: 5rem;
+    height: 2rem;
+}
+
+main{
+    background-color: cadetblue;
+    padding: 1rem;
+}
