@@ -15,6 +15,10 @@ h1{
     align-self: center;
 }
 
+#organizer{
+    display: flex;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -30,6 +34,12 @@ input{
     margin: 1rem;
 }
 
+#year{
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem;
+}
+
 button{
     align-self: center;
     width: 5rem;
@@ -39,4 +49,8 @@ button{
 main{
     background-color: cadetblue;
     padding: 1rem;
+}
+
+li{
+    margin: 1rem;
 }

@@ -11,20 +11,25 @@
     <header>
         <h1>Organizador De Peliculas</h1>
         <form onsubmit="" id="formulario">
-            <label for="name">Nombre de la Pelicula</label>
-            <input type="text" id="name">
+            <div id="organizer">
+                <div>
+                    <label for="name">Nombre de la Pelicula</label>
+                    <input type="text" id="name">
+                </div>
+    
+                <div>
+                    <label for="year">Año</label>
+                    <input type="text" id="year">
+                </div>
+            </div>
 
-            <button>Enviar</button>
+            <button class="submit">Enviar</button>
         </form>
     </header>
 
     <main>
-        <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <h2 id="mensaje"></h2>
+        <ol id="movies"> 
         </ol>
     </main>
 
